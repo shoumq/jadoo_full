@@ -30,16 +30,16 @@
         <div class="chm">
             <div class="flex25">
                 <button class="btn btn_white">
-                    <img src="../assets/images/facebook.svg" alt="">
+                    <img src="../../assets/images/facebook.svg" alt="">
                 </button>
 
                 <button class="btn btn_white"
                     style="background-image: url('https://shoumq.github.io/jadoo/images/bg.png'); background-size: 100rem 100rem; background-position: center;">
-                    <img src="../assets/images/instagram.svg" alt="">
+                    <img src="../../assets/images/instagram.svg" alt="">
                 </button>
 
                 <button class="btn btn_white">
-                    <img src="../assets/images/twitter.svg" alt="">
+                    <img src="../../assets/images/twitter.svg" alt="">
                 </button>
             </div>
 
@@ -48,15 +48,15 @@
             <div class="flex7">
                 <div class="item">
                     <a href="#">
-                        <img src="../assets/images/google-play.png" alt="">
+                        <img src="../../assets/images/google-play.png" alt="">
                     </a>
 
                     <a href="#">
-                        <img src="../assets/images/t1.png" alt="">
+                        <img src="../../assets/images/t1.png" alt="">
                     </a>
                 </div>
 
-                <img src="../assets/images/apple.png" alt="" class="item item0">
+                <img src="../../assets/images/apple.png" alt="" class="item item0">
             </div>
         </div>
     </footer>
