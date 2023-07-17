@@ -24,15 +24,15 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue';
-import Welcome from '../components/Welcome.vue';
-import Category from '../components/Category.vue';
-import TopSelling from '../components/TopSelling.vue';
-import EAF from '../components/EAF.vue';
-import Testimonials from '../components/Testimonials.vue';
-import Companies from '../components/Companies.vue';
-import Form from '../components/Form.vue';
-import Footer from '../components/Footer.vue';
+import Header from 'components/Header.vue';
+import Welcome from 'components/Welcome.vue';
+import Category from 'components/Category.vue';
+import TopSelling from 'components/TopSelling.vue';
+import EAF from 'components/EAF.vue';
+import Testimonials from 'components/Testimonials.vue';
+import Companies from 'components/Companies.vue';
+import Form from 'components/Form.vue';
+import Footer from 'components/Footer.vue';
 
 export default {
     components: {Header, Welcome, Category, TopSelling, EAF, Testimonials, Companies, Form, Footer}
