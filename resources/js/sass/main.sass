@@ -1,0 +1,1275 @@
+*
+    margin: 0
+    padding: 0
+    font-family: 'Google Sans'
+
+.container
+    position: relative
+    max-width: 1400rem
+    width: calc(100% - 30rem)
+    padding: 0 15rem
+    margin: 0 auto
+
+    @media (max-width: 650px)
+        overflow-x: hidden
+
+body
+    background-color: #FFFFFF
+
+.abs
+    &_ell_header
+        top: 0
+        user-select: none
+        position: absolute
+
+        @media (max-width: 650px)
+            display: none
+
+    &_dec_header
+        top: 0
+        user-select: none
+        position: absolute
+        right: 0
+        width: 866rem
+        height: 875rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_trav_main
+        user-select: none
+        position: absolute
+        width: 850rem
+        height: 850rem
+        top: 110rem
+        right: 150rem
+        z-index: 3
+
+        @media (max-width: 650px)
+            display: none
+
+    &_plane_1
+        user-select: none
+        position: absolute
+        top: 200rem
+        right: 730rem
+        z-index: 2
+
+        @media (max-width: 650px)
+            display: none
+
+    &_plane_2
+        user-select: none
+        position: absolute
+        top: 230rem
+        right: 150rem
+        z-index: 1
+
+        @media (max-width: 650px)
+            display: none
+
+    &_dots_main
+        position: absolute
+        right: 0
+        top: 0
+        width: 153rem
+        height: 166rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_rect_main
+        position: absolute
+        top: 1430rem
+        left: 350rem
+        width: 100rem
+        height: 100rem
+        z-index: 0
+        border-radius: 30rem 0px 10rem 0px
+        background: #DF6951
+
+        @media (max-width: 650px)
+            display: none
+
+    &_spiral
+        position: absolute
+        top: 230rem
+        right: -60rem
+        width: 96rem
+        height: 252rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_blue
+        position: absolute
+        border-radius: 367rem
+        opacity: 0.8000000119
+        background: #59B1E6
+        filter: blur(75rem)
+        width: 370rem
+        height: 357rem
+
+    &_window
+        position: absolute
+        top: 240rem
+        right: 0
+        padding: 15rem 25rem
+        background: #FFFFFF
+        border-radius: 18rem
+        display: flex
+        align-items: flex-start
+        gap: 10rem
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.03), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.04), 0px 20px 13px 0px rgba(0, 0, 0, 0.03), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.03), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.05)
+
+        @media (max-width: 650px)
+            right: -105rem
+            top: 170rem
+
+        img
+            border-radius: 1000rem
+
+        .desc
+            color: #84829A
+            font-size: 14rem
+            font-family: 'Poppins'
+            font-weight: 500
+            line-height: 124.5%
+            letter-spacing: -0.49rem
+
+        .title
+            color: #080809
+            font-size: 18rem
+            font-family: 'Poppins'
+            font-weight: 500
+            line-height: 124.5%
+            letter-spacing: -0.27rem
+            margin-top: 3rem
+
+        .purple
+            font-size: 14rem
+            font-family: 'Poppins'
+            font-weight: 500
+            line-height: 124.5%
+            letter-spacing: -0.77rem
+            margin-top: 10rem
+
+            b
+                color: #8A79DF
+                font-weight: 500
+
+        .progr
+            width: 156rem
+            height: 7rem
+            background: #F5F5F5
+            margin-top: 10rem
+            border-radius: 100rem
+            position: relative
+            margin-bottom: 12rem
+
+            &_active
+                top: 0
+                position: absolute
+                width: 62.4rem
+                height: 7rem
+                background: #8A79DF
+                border-radius: 100rem
+
+    &_under
+        position: absolute
+        top: 342rem
+        left: 540rem
+        width: 385rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_form1
+        position: absolute
+        right: 10rem
+        top: 10rem
+        width: 200rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_form2
+        position: absolute
+        left: 0
+        bottom: 0
+        width: 360rem
+        height: 450rem
+
+        @media (max-width: 650px)
+            display: none
+
+    &_tg
+        position: absolute
+        top: 0
+        right: 0
+        overflow: auto
+        z-index: 999
+        width: 70rem
+        height: 70rem
+
+        @media (max-width: 650px)
+            width: 40rem
+            height: 40rem
+            top: -5rem
+            right: -5rem
+
+    &_dots2
+        position: absolute
+        right: -100rem
+        bottom: -70rem
+        width: 153rem
+        height: 166rem
+
+header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 40rem
+
+    @media (max-width: 650px)
+        display: none
+
+    select
+        outline: none
+        border: none
+        background: transparent
+
+    .option
+        outline: none
+        border: none
+        background: #fff1da !important
+        cursor: pointer
+
+    .flex_main
+        display: flex
+        gap: 116rem
+        align-items: center
+
+    .item
+        user-select: none
+        font-size: 19rem
+        position: relative
+        color: $textColor
+        text-decoration: none
+        font-weight: 500
+        font-family: Poppins
+
+        &_border
+            user-select: none
+            border: 2rem solid $textColor
+            font-size: 17rem
+            position: relative
+            color: $textColor
+            text-decoration: none
+            font-weight: 500
+            padding: 9rem 22rem
+            border-radius: 10rem
+            transition: .2s
+            font-family: 'Montserrat' !important
+
+            &:hover
+                background-color: #dfd1bc
+
+        &_flex
+            display: flex
+            gap: 55rem
+            align-items: center
+
+            &_mini
+                display: flex
+                gap: 55rem
+                align-items: center
+
+#closeBurger
+    position: relative
+    left: -10rem
+
+.m_header
+    display: none
+
+    &__menu
+        display: none
+
+        @media (max-width: 650px)
+            position: absolute
+            display: flex
+            transform: translateX(10000rem)
+            padding-top: 20rem
+            flex-direction: column
+            width: 300rem
+            height: 1000rem
+            background: white
+            transition: .2s
+
+            .flex
+                display: flex
+                justify-content: space-between
+                align-items: center
+
+                svg
+                    width: 25rem
+                    height: 25rem
+
+            .content
+                display: flex
+                flex-direction: column
+                margin-top: 30rem
+
+                *
+                    text-align: center
+                    margin: auto
+                    position: relative
+
+                .item
+                    font-size: 17rem
+                    color: #212832
+                    text-decoration: none
+                    display: flex
+                    flex-direction: column
+                    margin-top: 15rem
+
+                    &_border
+                        user-select: none
+                        border: 2rem solid $textColor
+                        font-size: 17rem
+                        position: relative
+                        color: $textColor
+                        text-decoration: none
+                        font-weight: 500
+                        padding: 9rem 22rem
+                        border-radius: 10rem
+                        transition: .2s
+                        margin-top: 15rem
+
+                .login_m
+                    margin-bottom: 30rem
+
+                select
+                    margin-top: 30rem !important
+
+
+    @media (max-width: 650px)
+        margin-top: 20rem
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        .burger
+            svg
+                width: 25rem
+                height: 25rem
+
+.logo
+    width: 115rem
+    height: 35rem
+    user-select: none
+
+.poppins
+    font-family: 'Poppins', sans-serif
+    color: #DF6951
+    font-size: 20rem
+    text-transform: uppercase
+    font-weight: 700
+
+    @media (max-width: 650px)
+        width: 300rem
+
+.welcome
+    width: 700rem
+    margin-top: 134rem
+
+    @media (max-width: 650px)
+        margin-top: 50rem
+
+    .volkhov
+        color: $blueColor
+        font-family: 'Volkhov', serif
+        font-size: 95rem
+        margin-top: 24rem
+        line-height: 89rem
+        letter-spacing: -3.36rem
+
+        @media (max-width: 650px)
+            font-size: 50rem
+            width: 300rem
+            line-height: 50rem
+
+    .desc
+        color: $descColor
+        font-family: 'Poppins', sans-serif
+        font-size: 16rem
+        line-height: 30rem
+        width: 500rem
+        margin-top: 30rem
+
+        @media (max-width: 650px)
+            width: 300rem
+
+    .wel_flex
+        display: flex
+        gap: 44rem
+        margin-top: 34rem
+
+        @media (max-width: 650px)
+            flex-direction: column
+            width: 300rem
+            gap: 20rem
+
+        .btn_wel_flex
+            cursor: pointer
+            display: flex
+            font-family: 'Poppins'
+            font-size: 18rem
+            color: #686D77
+            align-items: center
+            gap: 21rem
+
+.category
+    position: relative
+    margin-top: 300rem
+
+    @media (max-width: 650px)
+        margin-top: 100rem
+
+    &_grid
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        margin-top: 68rem
+
+        @media (max-width: 650px)
+            display: flex
+            flex-direction: column
+            margin-top: 10rem
+
+    &_item
+        margin: auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 220rem
+        padding: 44rem
+        border-radius: 36rem
+
+        @media (max-width: 650px)
+            padding: 25rem
+
+        &__active
+            box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02)
+            position: relative
+            z-index: 1
+            background-color: #FFFFFF
+
+            svg
+                width: 100rem
+                height: 100rem
+
+        img
+            width: 92rem
+            height: 78rem
+            object-fit: contain
+
+        .title
+            color: #1E1D4C
+            text-align: center
+            font-size: 23rem
+            font-family: 'Open Sans'
+            font-style: normal
+            font-weight: 600
+            line-height: normal
+            margin-top: 29rem
+
+        .desc
+            color: #5E6282
+            text-align: center
+            font-size: 18rem
+            font-family: 'Poppins'
+            font-weight: 500
+            line-height: 26rem
+            margin-top: 15rem
+
+.title
+    color: #5E6282
+    text-align: center
+    font-size: 18rem
+    font-family: Poppins
+    font-weight: 600
+
+    &_big
+        margin-top: 10rem
+        color: #14183E
+        text-align: center
+        font-size: 50rem
+        font-family: Volkhov
+        font-weight: 700
+        text-transform: capitalize
+
+        @media (max-width: 650px)
+            font-size: 45rem
+
+.top_selling
+    margin-top: 156rem
+
+    @media (max-width: 650px)
+        margin-top: 70rem
+
+    &__grid
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        margin-top: 60rem
+        gap: 100rem
+        position: relative
+
+        @media (max-width: 650px)
+            display: flex
+            flex-direction: column
+            gap: 50rem
+
+        .item
+            width: 100%
+            border-radius: 25rem
+            z-index: 2999
+            overflow: hidden
+            box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02)
+
+            .img
+                width: 100%
+                height: 500rem
+                object-fit: cover
+
+                @media (max-width: 650px)
+                    height: 300rem
+
+            &_flex
+                padding: 0 20rem
+                padding-top: 27rem
+                display: flex
+                justify-content: space-between
+
+                .info
+                    color: #5E6282
+                    font-size: 18rem
+                    font-family: 'Poppins'
+                    font-weight: 500
+                    line-height: 124.5%
+
+            .geo
+                padding: 0 20rem
+                padding-bottom: 40rem
+                color: var(--textclr, #5E6282)
+                font-size: 16rem
+                font-family: 'Poppins'
+                font-weight: 500
+                line-height: 124.5%
+                display: flex
+                align-items: center
+                gap: 14rem
+                margin-top: 14rem
+
+                svg
+                    width: 20rem
+                    height: 20rem
+
+.eaf
+    margin-top: 156rem
+
+    @media (max-width: 650px)
+        margin-top: 70rem
+
+    &_flex
+        display: flex
+        justify-content: space-between
+
+        @media (max-width: 650px)
+            flex-direction: column
+
+        &_50
+            flex: 520rem 0 0
+            position: relative
+
+            &:nth-child(2)
+                @media (max-width: 650px)
+                    margin-top: 50rem
+
+    .title
+        text-align: start
+
+        &_big
+            text-align: start
+            margin-top: 15rem
+            margin-bottom: 31rem
+
+    &_item
+        display: flex
+        gap: 21rem
+        align-items: flex-start
+        width: 440rem
+        margin-bottom: 48rem
+
+        @media (max-width: 650px)
+            width: 100%
+
+        .title
+            color: #5E6282
+            font-size: 17rem
+            font-family: 'Poppins'
+            font-weight: 700
+            line-height: 124.5%
+
+            @media (max-width: 650px)
+                font-size: 15rem
+
+        .desc
+            color: #7f839f
+            font-size: 17rem
+            font-family: 'Poppins'
+            font-weight: 400
+            line-height: 124.5%
+            margin-top: 4rem
+
+            @media (max-width: 650px)
+                font-size: 15rem
+
+.window
+    position: relative
+    padding: 20rem 25rem
+    background-color: #FFFFFF
+    right: 50rem
+    width: 370rem
+    border-radius: 26rem
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02)
+
+    @media (max-width: 650px)
+        left: -5rem
+        width: 250rem
+
+    img
+        width: 100%
+
+    .title
+        color: #080809
+        font-size: 18rem
+        font-family: 'Poppins'
+        font-weight: 500
+        line-height: 124.5%
+        letter-spacing: 0.27rem
+        margin-top: 26rem
+
+    .desc
+        color: #84829A
+        font-size: 16rem
+        font-family: 'Poppins'
+        font-weight: 500
+        line-height: 124.5%
+        letter-spacing: -0.08rem
+        margin-top: 13rem
+
+    .flex
+        display: flex
+        gap: 18rem
+        margin-top: 21rem
+
+        &_bet
+            display: flex
+            justify-content: space-between
+            align-items: center
+
+    .flex2
+        display: flex
+        gap: 18rem
+        align-items: center
+
+    .mb
+        margin-bottom: 30rem
+
+    .home
+        width: 20rem
+        height: 20rem
+
+    .heart
+        width: 20rem
+        height: 20rem
+
+    .gray
+        color: $descColor
+        font-family: 'Poppins', sans-serif
+        font-size: 16rem
+        line-height: 30rem
+
+.form
+    margin-top: 124rem
+    border-radius: 20rem 129rem 20rem 20rem
+    background: #f8f7fd
+    position: relative
+    margin-bottom: 187rem
+
+    @media (max-width: 650px)
+        border-radius: 20rem 39rem 10rem 10rem
+        margin-bottom: 100rem
+
+    .title
+        color: #5E6282
+        text-align: center
+        font-size: 33rem
+        font-family: 'Poppins'
+        font-weight: 600
+        line-height: 54rem
+        width: 881rem
+        text-align: center
+        padding-top: 79rem
+        margin: auto
+        margin-bottom: 74rem
+        z-index: 999999
+        position: relative
+
+        @media (max-width: 650px)
+            width: 280rem
+            font-size: 17rem
+            line-height: 25rem
+            margin-bottom: 30rem
+
+    .flex
+        display: flex
+        width: 625rem
+        margin: auto
+        align-items: center
+        gap: 24rem
+        padding-bottom: 78rem
+
+        @media (max-width: 650px)
+            flex-direction: column
+            width: 100%
+            padding-bottom: 40rem
+
+        .white
+            background-color: #FFFFFF
+            padding: 16rem 31rem
+            border-radius: 10rem
+            width: 421rem
+            display: flex
+            align-items: center
+            gap: 15rem
+
+            @media (max-width: 650px)
+                width: 228rem
+                padding: 16rem 15rem
+
+            input
+                font-family: 'Montserrat'
+                outline: none
+                border: none
+                width: 100%
+                position: relative
+
+                &::-webkit-input-placeholder
+                    color: black
+
+                &:-webkit-autofill,
+                &:-webkit-autofill:hover,
+                &:-webkit-autofill:focus,
+                &:-webkit-autofill:active
+                    -webkit-box-shadow: 0 0 0 30rem white inset !important
+
+            .email
+                width: 21rem
+                height: 18rem
+
+footer
+    display: flex
+    align-items: flex-start
+    flex-direction: row
+    gap: 150rem
+
+    @media (max-width: 650px)
+        flex-direction: column
+        gap: 25rem
+        margin: auto
+        text-align: center
+        width: 100%
+
+    a
+        display: block
+        text-decoration: none
+
+    .ch
+        @media (max-width: 650px)
+            width: 100%
+
+    .chm
+        @media (max-width: 650px)
+            margin: auto
+            padding-top: 40rem
+
+
+    .title_main
+        color: #181E4B
+        font-size: 44rem
+        font-family: 'Poppins'
+        font-weight: 500
+        margin-bottom: 19rem
+
+        @media (max-width: 650px)
+            margin-bottom: 0
+
+    .desc
+        color: #5E6282
+        font-size: 13rem
+        font-family: 'Poppins'
+        font-style: normal
+        font-weight: 500
+        line-height: 124.5%
+        width: 207rem
+
+    .title
+        color: #080809
+        font-size: 21rem
+        font-family: Poppins
+        font-weight: 700
+        line-height: 124.5%
+        margin-bottom: 28rem
+        text-align: start
+
+        @media (max-width: 650px)
+            margin-bottom: 5rem
+            text-align: center
+
+    .item
+        color: #5E6282
+        font-size: 18rem
+        font-family: Poppins
+        font-weight: 500
+        margin-bottom: 10rem
+
+        @media (max-width: 650px)
+            margin-bottom: 0
+
+    .flex25
+        display: flex
+        gap: 25rem
+
+    .info
+        color: #5E6282
+        font-size: 20rem
+        font-family: Poppins
+        font-weight: 500
+        line-height: 124.5%
+        letter-spacing: 0.1rem
+        margin-top: 26rem
+
+    .flex7
+        display: flex
+        gap: 7rem
+        margin-top: 16rem
+
+        .item
+            display: flex
+            align-items: center
+            border-radius: 100rem
+            background: #080809
+            padding: 7rem 17rem
+            gap: 6rem
+
+            &0
+                padding: 0
+                width: 110rem
+
+.logo_s
+    width: 15rem
+    height: 15rem
+
+.min_mt
+    margin-top: -20rem
+
+    @media (max-width: 650px)
+        margin: auto
+        padding-bottom: 30rem
+
+.finish
+    color: #5E6282
+    font-size: 14rem
+    font-family: Poppins
+    font-weight: 500
+    line-height: 124.5%
+    text-align: center
+    margin: 86rem 0
+
+    @media (max-width: 650px)
+        margin: 35rem 0
+
+.swiper-wrapper
+    height: 200rem
+    display: none
+
+.swiper-slide
+    text-align: center
+    font-size: 18px
+    background: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 366rem !important
+
+.swiper-slide img
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.testimonials
+    margin-top: 209rem
+
+    @media (max-width: 650px)
+        margin-top: 0
+
+    .title
+        color: #5E6282
+        font-size: 18rem
+        font-family: Poppin
+        font-weight: 600
+        text-transform: uppercase
+        text-align: start
+
+    .title_big
+        text-align: start
+        width: 500rem
+
+        @media (max-width: 650px)
+            width: 300rem
+            font-size: 40rem
+
+    .flex
+        display: flex
+        justify-content: space-between
+
+        @media (max-width: 650px)
+            flex-direction: column
+
+        .item
+            flex: 0 0 45%
+
+            .window2
+                position: relative
+                cursor: pointer
+                border-radius: 10rem
+                background: #FFFFFF
+                width: 504rem
+                padding: 28rem 34rem
+                // box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 8px 6px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.01), 0px 50px 30px 0px rgba(0, 0, 0, 0.01)
+                box-shadow: 0 0 30px #cbcbcb
+                margin-top: 70rem
+                margin-left: 30rem
+                margin-inline: auto
+
+                @media (max-width: 650px)
+                    width: 300rem
+                    padding: 18rem 14rem
+                    margin-top: 76rem
+                    margin-left: 0
+                    padding: 0
+
+                .text
+                    color: #5E6282
+                    font-size: 17rem
+                    font-family: Poppins
+                    font-weight: 500
+                    line-height: 32rem
+                    width: 402rem
+
+                    @media (max-width: 650px)
+                        width: 100%
+
+                .author
+                    color: #5E6282
+                    font-size: 19rem
+                    font-family: Poppins
+                    font-weight: 600
+                    margin-top: 34rem
+
+                .city
+                    color: #5E6282
+                    font-size: 15rem
+                    font-family: Poppins
+                    font-weight: 500
+                    margin-top: 3rem
+
+                img
+                    position: absolute
+                    top: -30rem
+                    left: -30rem
+                    width: 68rem
+                    height: 68rem
+
+                    @media (max-width: 650px)
+                        display: none
+
+    .dots-gap
+        display: flex
+        gap: 25rem
+        margin-top: 82rem
+
+        @media (max-width: 650px)
+            margin-top: 30rem
+
+    .dot
+        background: #E5E5E5
+        width: 12rem
+        height: 12rem
+        border-radius: 100rem
+        cursor: pointer
+
+        &_active
+            background: #39425D
+
+.companies
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 96rem
+    margin-bottom: 158rem
+
+    @media (max-width: 650px)
+        flex-direction: column
+        gap: 60rem
+        margin-top: 30rem
+
+    img
+        width: 150rem
+        height: 30rem
+        object-fit: cover
+        object-position: center
+
+    .active
+        border-radius: 10rem
+        padding: 13rem 30rem
+        height: 80rem
+        width: 240rem
+        background: #FFFFFF
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02)
+
+
+
+@media (max-width: 768px) and (orientation: landscape)
+    .container
+        overflow-x: hidden
+
+    .welcome
+        margin: auto
+        width: 300rem
+
+    .abs_trav_main
+        display: none
+
+    .abs_ell_header
+        display: none
+
+    .abs_dec_header
+        display: none
+
+    .abs_plane_1
+        display: none
+
+    .abs_plane_2
+        display: none
+
+    .abs_under
+        display: none
+
+    .abs_dots_main
+        display: none
+
+    .abs_spiral
+        display: none
+
+    .abs_form1
+        display: none
+
+    .abs_form2
+        display: none
+
+    .abs_tg
+        display: none
+
+    .abs_dots2
+        display: none
+
+    .abs_rect_main
+        display: none
+
+    .welcome
+        width: 635rem
+
+    .min_mt
+        margin: auto
+
+    .volkhov
+        font-size: 45rem !important
+        line-height: 60rem !important
+        margin-top: 0 !important
+
+    .poppins
+        margin-top: 30rem !important
+
+    .top_selling__grid
+        display: flex
+        flex-direction: column
+        gap: 80rem
+
+    .category_grid
+        display: flex
+        flex-direction: column
+        gap: 30rem
+
+    .eaf_flex
+        display: flex
+        flex-direction: column
+        gap: 30rem
+
+    .testimonials
+        .flex
+            display: flex
+            flex-direction: column
+
+    footer
+        flex-direction: column
+        gap: 25rem
+        margin: auto
+        text-align: center
+        width: 100%
+
+    .ch
+        width: 100%
+
+        .title
+            text-align: center
+
+    .chm
+        margin: auto
+        padding-top: 40rem
+
+    .top_selling__grid .item .img
+        height: 300rem
+
+    .window
+        position: relative
+        left: 50rem
+
+    .window2
+        img
+            display: none !important
+
+    .companies
+        flex-direction: column
+        gap: 60rem
+        margin-top: 30rem
+
+    header
+        display: none
+
+    .m_header
+        margin-top: 20rem
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        .burger
+            svg
+                width: 25rem
+                height: 25rem
+
+    .m_header__menu
+        position: absolute
+        display: flex
+        transform: translateX(10000rem)
+        padding-top: 20rem
+        flex-direction: column
+        width: 600rem
+        height: 1000rem
+        background: white
+        transition: .2s
+
+        .flex
+            display: flex
+            justify-content: space-between
+            align-items: center
+
+            svg
+                width: 25rem
+                height: 25rem
+
+        .content
+            display: flex
+            flex-direction: column
+            margin-top: 30rem
+
+            *
+                text-align: center
+                margin: auto
+                position: relative
+
+            .item
+                font-size: 17rem
+                color: #212832
+                text-decoration: none
+                display: flex
+                flex-direction: column
+                margin-top: 15rem
+
+                &_border
+                    user-select: none
+                    border: 2rem solid $textColor
+                    font-size: 17rem
+                    position: relative
+                    color: $textColor
+                    text-decoration: none
+                    font-weight: 500
+                    padding: 9rem 22rem
+                    border-radius: 10rem
+                    transition: .2s
+                    margin-top: 15rem
+
+            .login_m
+                margin-bottom: 30rem
+
+            select
+                margin-top: 30rem !important
+
+
+
+    .form
+        border-radius: 20rem 39rem 10rem 10rem
+        margin-bottom: 100rem
+
+        .title
+            width: 580rem
+            font-size: 17rem
+            line-height: 25rem
+            margin-bottom: 30rem
+
+        input
+            font-size: 20rem
+            width: 100%
+
+        .flex
+            flex-direction: column
+            width: 100%
+            padding-bottom: 40rem
+
+            .white
+                width: 500rem
+                padding: 16rem 15rem
+
+    .category
+        margin-top: 100rem
+
+        .category_item
+            padding: 22rem
+
+    .testimonials
+        margin-top: 80rem
+
+    .dots-gap
+        margin-top: 20rem !important
