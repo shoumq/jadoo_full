@@ -23,7 +23,7 @@
 
     <div class="m_header__menu">
         <div class="flex">
-            <a href="#">
+            <a href="/">
                 <img src="../assets/images/logo.png" alt="" class="logo">
             </a>
 
