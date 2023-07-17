@@ -5,7 +5,7 @@
 
         <div class="top_selling__grid">
             <div class="item">
-                <img src="../../assets/images/top1.png" alt="" class="img">
+                <img src="../assets/images/top1.png" alt="" class="img">
                 <div class="item_flex">
                     <div class="info">Rome, Italty</div>
                     <div class="info">$5.42k</div>
@@ -21,7 +21,7 @@
             </div>
 
             <div class="item">
-                <img src="../../assets/images/top2.png" alt="" class="img">
+                <img src="../assets/images/top2.png" alt="" class="img">
                 <div class="item_flex">
                     <div class="info">London, UK</div>
                     <div class="info">$4.2k</div>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="item">
-                <img src="../../assets/images/top3.png" alt="" class="img">
+                <img src="../assets/images/top3.png" alt="" class="img">
                 <div class="item_flex">
                     <div class="info">Full Europe</div>
                     <div class="info">$15k</div>
@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <img src="../../assets/images/spiral.png" alt="" class="abs_spiral">
+            <img src="../assets/images/spiral.png" alt="" class="abs_spiral">
         </div>
     </div>
 </template>

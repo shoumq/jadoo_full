@@ -19,7 +19,7 @@
 
                     <swiper-slide>
                         <div class="window2">
-                            <img src="../../assets/images/man.png" alt="">
+                            <img src="../assets/images/man.png" alt="">
                             <div class="text">
                                 “On the Windows talking painted pasture yet its express parties use. Sure
                                 last
@@ -34,7 +34,7 @@
 
                     <swiper-slide>
                         <div class="window2">
-                            <img src="../../assets/images/man.png" alt="">
+                            <img src="../assets/images/man.png" alt="">
                             <div class="text">
                                 “On the Windows talking painted pasture yet its express parties use. Sure
                                 last
@@ -49,7 +49,7 @@
 
                     <swiper-slide>
                         <div class="window2">
-                            <img src="../../assets/images/man.png" alt="">
+                            <img src="../assets/images/man.png" alt="">
                             <div class="text">
                                 “On the Windows talking painted pasture yet its express parties use. Sure
                                 last
@@ -70,7 +70,7 @@
 
 
 <script>
-import SwiperMixin from '../../Mixins/swiper.mixin.js';
+import SwiperMixin from '../Mixins/swiper.mixin.js';
 export default {
     mixins: [SwiperMixin]
 };

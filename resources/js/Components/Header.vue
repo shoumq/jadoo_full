@@ -1,7 +1,7 @@
 <template>
     <header>
         <a href="#">
-            <img src="../../assets/images/logo.png" alt="" class="logo">
+            <img src="../assets/images/logo.png" alt="" class="logo">
         </a>
         <div class="flex_main">
             <div class="item_flex">
@@ -24,7 +24,7 @@
     <div class="m_header__menu">
         <div class="flex">
             <a href="#">
-                <img src="../../assets/images/logo.png" alt="" class="logo">
+                <img src="../assets/images/logo.png" alt="" class="logo">
             </a>
 
             <div class="burger" id="closeBurger" ref="closeBurger" @click="closeModal">
@@ -56,7 +56,7 @@
 
     <div class="m_header">
         <a href="#">
-            <img src="../../assets/images/logo.png" alt="" class="logo">
+            <img src="../assets/images/logo.png" alt="" class="logo">
         </a>
 
         <div class="burger" id="openBurger" ref="openBurger" @click="openModal">
