@@ -19,6 +19,7 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
+        "@intlify/unplugin-vue-i18n": "^0.12.2",
         "swiper": "^10.0.4",
         "vue-js-modal": "^2.0.1"
     }

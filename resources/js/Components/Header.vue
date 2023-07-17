@@ -1,6 +1,6 @@
 <template>
     <header>
-        <a href="#">
+        <a href="/">
             <img src="../assets/images/logo.png" alt="" class="logo">
         </a>
         <div class="flex_main">
