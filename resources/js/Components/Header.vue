@@ -1,3 +1,7 @@
+<script setup>
+import {Link} from '@inertiajs/vue3'
+</script>
+
 <template>
     <header>
         <a href="/">
@@ -5,13 +9,13 @@
         </a>
         <div class="flex_main">
             <div class="item_flex">
-                <a href="#" class="item">Desitnations</a>
-                <a href="#" class="item">Hotels</a>
-                <a href="#" class="item">Flights</a>
-                <a href="#" class="item">Bookings</a>
+                <Link href="/destinations" class="item">Destinations</Link>
+                <Link href="/hotels" class="item">Hotels</Link>
+                <Link href="/flights" class="item">Flights</Link>
+                <Link href="/bookings" class="item">Bookings</Link>
             </div>
             <div class="item_flex_mini">
-<!--                <a href="#" class="item">Login</a>-->
+                <!--                <a href="#" class="item">Login</a>-->
                 <a :href="getName.link" class="item_border">{{ getName.title }}</a>
                 <select name="" id="" class="item">
                     <option value="RU" class="option">RU</option>
@@ -29,19 +33,19 @@
 
             <div class="burger" id="closeBurger" ref="closeBurger" @click="closeModal">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-                    <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-                    <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                    <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
                 </svg>
             </div>
         </div>
 
         <div class="content">
             <div class="item_flex">
-                <a href="#" class="item">Desitnations</a>
-                <a href="#" class="item">Hotels</a>
-                <a href="#" class="item">Flights</a>
-                <a href="#" class="item">Bookings</a>
+                <Link href="/destinations" class="item">Destinations</Link>
+                <Link href="/hotels" class="item">Hotels</Link>
+                <Link href="/flights" class="item">Flights</Link>
+                <Link href="/bookings" class="item">Bookings</Link>
             </div>
             <div class="item_flex_mini">
                 <a href="#" class="item login_m">Login</a>
@@ -61,9 +65,9 @@
 
         <div class="burger" id="openBurger" ref="openBurger" @click="openModal">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
             </svg>
         </div>
     </div>

@@ -25,9 +25,11 @@ use Inertia\Inertia;
 //    ]);
 //});
 
-Route::get('/', function () {
-    return Inertia::render('Main');
-});
+Route::get('/', [\App\Http\Controllers\MainController::class, 'main']);
+Route::get('/destinations', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
+Route::get('/hotels', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
+Route::get('/flights', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
+Route::get('/bookings', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [\App\Http\Controllers\MainController::class, 'index'])->name('profile');

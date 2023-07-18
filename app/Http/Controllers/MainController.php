@@ -9,6 +9,11 @@ use Inertia\Inertia;
 
 class MainController extends Controller
 {
+    public function main()
+    {
+        return Inertia::render('Main');
+    }
+
     public function index()
     {
         return Inertia::render('Profile');
@@ -22,5 +27,11 @@ class MainController extends Controller
         $email->save();
 
         return "success";
+    }
+
+    public function getFunctionTitle()
+    {
+        $from_url = $_SERVER['REQUEST_URI'];
+        return Inertia::render('Pass', compact('from_url'));
     }
 }

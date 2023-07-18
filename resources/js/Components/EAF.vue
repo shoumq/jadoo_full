@@ -72,7 +72,7 @@
                     <div>
                         <div class="desc">Ongoing</div>
                         <div class="title">Trip to rome</div>
-                        <div class="purple"><b>40%</b> completed</div>
+                        <div class="purple"><b style="font-family: Montserrat,serif">40% </b> completed</div>
                         <div class="progr">
                             <div class="progr_active"></div>
                         </div>

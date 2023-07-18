@@ -6,7 +6,6 @@ import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
-import VModal from 'vue-js-modal'
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 

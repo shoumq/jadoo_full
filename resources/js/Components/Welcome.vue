@@ -1,3 +1,7 @@
+<script setup>
+import {Link} from '@inertiajs/vue3'
+</script>
+
 <template>
     <div class="welcome">
         <div class="poppins">Best Destinations around the world</div>
@@ -13,9 +17,9 @@
         </div>
 
         <div class="wel_flex">
-            <button class="btn btn_orange">Find out more</button>
+            <Link style="text-decoration: none" href="/destinations" class="btn btn_orange">Find out more</Link>
 
-            <div class="btn_wel_flex">
+            <a style="text-decoration: none" target="_blank" href="https://www.youtube.com/watch?v=FLL5ixEOXVM&pp=ygUP0L_RgNC40YDQvtC00LAg" class="btn_wel_flex">
                 <button class="btn btn_red">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-caret-right-fill"
                         viewBox="0 0 16 16">
@@ -24,7 +28,7 @@
                     </svg>
                 </button>
                 Play Demo
-            </div>
+            </a>
         </div>
     </div>
 </template>
