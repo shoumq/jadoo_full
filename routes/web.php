@@ -26,10 +26,10 @@ use Inertia\Inertia;
 //});
 
 Route::get('/', [\App\Http\Controllers\MainController::class, 'main']);
-Route::get('/destinations', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
-Route::get('/hotels', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
-Route::get('/flights', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
-Route::get('/bookings', [\App\Http\Controllers\MainController::class, 'getFunctionTitle']);
+Route::get('/destinations', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
+Route::get('/hotels', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
+Route::get('/flights', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
+Route::get('/bookings', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [\App\Http\Controllers\MainController::class, 'index'])->name('profile');

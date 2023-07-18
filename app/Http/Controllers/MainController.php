@@ -29,7 +29,7 @@ class MainController extends Controller
         return "success";
     }
 
-    public function getFunctionTitle()
+    public function getUrlTitle()
     {
         $from_url = $_SERVER['REQUEST_URI'];
         return Inertia::render('Pass', compact('from_url'));
