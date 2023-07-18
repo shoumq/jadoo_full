@@ -2,7 +2,7 @@
     <div class="container">
         <Header></Header>
         <div class="container auto window">
-            <div class="title">Данные</div>
+            <div class="title">Данные {{id}}</div>
             <div class="info">
                 <div class="cin">Имя:</div>
                 <div class="cin">{{ $page.props.auth.user.name }}</div>

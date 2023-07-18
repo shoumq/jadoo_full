@@ -5,11 +5,11 @@
                 <div class="title">Testimonials</div>
                 <div class="title_big">What people say
                     about Us.</div>
-                <div class="dots-gap">
-                    <div class="dot dot_active"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
+<!--                <div class="dots-gap">-->
+<!--                    <div class="dot dot_active"></div>-->
+<!--                    <div class="dot"></div>-->
+<!--                    <div class="dot"></div>-->
+<!--                </div>-->
             </div>
 
             <div class="item">
