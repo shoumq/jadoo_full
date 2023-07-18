@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ListResource;
 use App\Models\Email;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -33,5 +34,11 @@ class MainController extends Controller
     {
         $from_url = $_SERVER['REQUEST_URI'];
         return Inertia::render('Pass', compact('from_url'));
+    }
+
+    public function list()
+    {
+        $items = ListResource::collection(Email::latest()->get())->resolve();
+        return Inertia::render('List', compact('items'));
     }
 }

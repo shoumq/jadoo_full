@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -25,15 +26,16 @@ use Inertia\Inertia;
 //    ]);
 //});
 
-Route::get('/', [\App\Http\Controllers\MainController::class, 'main']);
-Route::get('/destinations', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
-Route::get('/hotels', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
-Route::get('/flights', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
-Route::get('/bookings', [\App\Http\Controllers\MainController::class, 'getUrlTitle']);
+Route::get('/', [MainController::class, 'main']);
+Route::get('/destinations', [MainController::class, 'getUrlTitle']);
+Route::get('/hotels', [MainController::class, 'getUrlTitle']);
+Route::get('/flights', [MainController::class, 'getUrlTitle']);
+Route::get('/bookings', [MainController::class, 'getUrlTitle']);
+Route::get('/list', [MainController::class, 'list']);
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [\App\Http\Controllers\MainController::class, 'index'])->name('profile');
-    Route::post('/email', [\App\Http\Controllers\MainController::class, 'email']);
+    Route::get('/profile', [MainController::class, 'index'])->name('profile');
+    Route::post('/email', [MainController::class, 'email']);
 });
 
 require __DIR__.'/auth.php';
